@@ -4,4 +4,4 @@ python yazılım dili ile menü nasıl geliştirilir ve oluşturulur
 <img src="Resim/Anamenu.PNG" alt="Örnek Anamenu.PNG"/>
 <p>projemin ana menüsü  projede oyun için merak edilen konular hakkında gündelik hayatta işinize yarayacak konular ile ilgili bölümler yaptım </p>
 
-<img src="not_hesaplama.PNG.jpg" alt="not_hesaplama.PNG"/>
+<img src="not_hesaplama.PNG" alt="not_hesaplama.PNG"/>
