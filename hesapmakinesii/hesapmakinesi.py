@@ -2,6 +2,7 @@ import sys
 import time
 
 def anamenu():
+    
     print("╔══════════════════╗")
     print("║  HESAP MAKİNESİ  ║")
     print("║                  ║")
@@ -68,3 +69,4 @@ def anamenu():
     else:
         print("Lütfen menüde bulunan geçerli bir sayı giriniz.")
         anamenu()
+

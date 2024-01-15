@@ -1,8 +1,10 @@
 import takvis.takvim
 import hesapmakinesii.hesapmakinesi
+import not_hesaplama.not_durumu
 
 def anamenu():   
 
+    
     print("╔═══════════════════╗")
     print("║ 1-OYUNLAR         ║")
     print("║ 2-ŞEKİL ÇİZDİRME  ║")
@@ -21,7 +23,12 @@ def anamenu():
        takvis.takvim.takvimmenu()
        anamenu()
     if secim == "9" :
-       python.hesapmakinesi.hesapmenu()
+       hesapmakinesii.hesapmakinesi.anamenu()
        anamenu()
- 
+    if secim == "5" :
+       not_hesaplama.not_durumu.anamenu()
+       anamenu()
+
+
 anamenu()
+   
