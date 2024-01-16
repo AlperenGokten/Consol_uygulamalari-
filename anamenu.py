@@ -1,6 +1,7 @@
 import takvis.takvim
 import hesapmakinesii.hesapmakinesi
 import not_hesaplama.not_durumu
+import ısı.sıcaklık_hesaplama
 
 def anamenu():   
 
@@ -14,7 +15,7 @@ def anamenu():
     print("║ 6-İDEAL KİLO      ║")
     print("║   HESAPLAMA       ║")
     print("║ 7-ÇARPIM TABLOSU  ║")
-    print("║ 8-SINIF LİSTESİ   ║")
+    print("║ 8-ISI HARİTASI    ║")
     print("║ 9-HESAP MAKİNASI  ║")
     print("║ 10-DÖVİZ UYGULAMAS║")
     print("╚═══════════════════╝")
@@ -28,7 +29,8 @@ def anamenu():
     if secim == "5" :
        not_hesaplama.not_durumu.anamenu()
        anamenu()
-
+    if secim == "8" :
+       ısı.sıcaklık_hesaplama
 
 anamenu()
    
