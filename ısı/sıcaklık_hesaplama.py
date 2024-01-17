@@ -1,7 +1,7 @@
 import sys
 import time
 
-def anamenu():
+def sıcaklık_menu():
     print("╔═══════════════════════════════╗")
     print("║       SICAKLIK ÇEVİRME        ║")
     print("║                               ║")
@@ -73,4 +73,5 @@ def anamenu():
         sys.exit(0)
     else:
         print("Lütfen menüde bulunan geçerli bir sayı giriniz.")
-        anamenu()
+        sıcaklık_menu()
+
