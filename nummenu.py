@@ -1,3 +1,4 @@
+
 def nummenu():   
 
     
@@ -23,3 +24,5 @@ def nummenu():
     if secım == "" :
 
         nummenu()
+
+nummenu ()
